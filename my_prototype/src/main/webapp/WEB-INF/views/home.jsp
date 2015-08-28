@@ -13,7 +13,7 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 
-<form:form modelAttribute="ioMap" name="frm" action="/" method="post">
+<form:form modelAttribute="ioMap" name="frm" action="/home" method="post">
 <input type="text" name="한글"  value="<c:out value="${ioMap['한글']}" />" />
 <form:input type="submit" path="" value="send" />
 </form:form>
